@@ -1,4 +1,5 @@
 import torch
+from pathlib import Path
 from unet import UNet as _UNet
 
 def unet_carvana(pretrained=False, scale=0.5):
